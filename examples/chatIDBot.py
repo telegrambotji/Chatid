@@ -10,9 +10,9 @@ is_private_filter = filters.create(lambda _, message: message.chat_id > 0)
 lock = asyncio.Lock()
 
 client = Client(
-    api_id=0,
-    api_hash="",
-    token="",
+    api_id=27194475,
+    api_hash="b9eaaeead349eb9c593bfe9ae04ded7d",
+    token="8359699413:AAH7nIUTXDcUIwNGDzqTcOxYYDuT5PNCbJ4",
     database_encryption_key="WhatIDisThat",
     files_directory="ChatIDbot",
     options={
